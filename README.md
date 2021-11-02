@@ -1,4 +1,4 @@
-# Welcome to Athena Web Automation Project
+# Welcome to Web Automation Project
 
 This maven project consists of following technologies/frameworks:
 - Selenium
@@ -52,7 +52,7 @@ Ex: The located element is input field, so the element name should be started wi
 
 ## Build
 ### Local build
-Build can be triggered from any athena-web-automation folder with the following command
+Build can be triggered from any selenium-webdriver-cucumber folder with the following command
 
 ```
 mvn clean install
@@ -101,7 +101,7 @@ Cucumber-TestNG report will be generated pretty html in ``target/cucumber-report
 ### Allure - Cucumber JVM
 
 Then execute ``mvn clean test allure:report`` goal. After tests executed allure JSON files will be placed in ``target/allure-results`` directory by default.
-Report will be generated tо directory: ``target/allure-report/index.html``
+Report will be generated tо directory: ``target/allure-report/index.html``. Please wait for allure-report folder is created.
 [click here to see a report](https://jenkins-minh.herokuapp.com/job/seleniu-webdriver-cucumber/Allure_20Report/)
 
 Warning:
@@ -132,7 +132,7 @@ The Selenium + Cucumber project welcomes contributions from everyone. There are 
 When opening new issues or commenting on existing issues please make sure discussions are related to concrete technical issues with the project.
 
 ### Feature Requests
-If you find that project is missing something or require a new script for new feature of Athena, feel free to open an issue with details describing what feature(s) you'd like added or changed.
+If you find that project is missing something or require a new script for new feature of project, feel free to open an issue with details describing what feature(s) you'd like added or changed.
 
 If you'd like a hand at trying to implement the feature or test script yourself, please refer to the Code Contributions section of the document.
 
@@ -194,7 +194,7 @@ Step 6: Push
 ```
 git push origin <number ticket>
 ```
-Go to https://github.com/eduloginc/athena-web-automation  and press the Pull Request and fill out the form.
+Go to https://github.com/mluu3/selenium-webdriver-cucumber  and press the Pull Request and fill out the form.
 
 Step 7: Integration
 When code review is complete, a committer will take your PR and integrate it on Selenium's develop branch. Because we like to keep a linear history on the develop branch, we will normally squash and rebase your branch history.
